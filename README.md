@@ -16,3 +16,5 @@ Leetcode solutions available for selected problems
 
 [70. Climbing Stairs ](https://github.com/zlatanned/leetcode-solutions-js/tree/master/70.%20Climbing%20Stairs)
 
+[746. Min Cost Climbing Stairs ](https://github.com/zlatanned/leetcode-solutions-js/tree/master/746.%20Min%20Cost%20Climbing%20Stairs)
+
