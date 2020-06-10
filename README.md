@@ -16,5 +16,7 @@ Leetcode solutions available for selected problems
 
 [70. Climbing Stairs ](https://github.com/zlatanned/leetcode-solutions-js/tree/master/70.%20Climbing%20Stairs)
 
+[509. Fibonacci Number](https://github.com/zlatanned/leetcode-solutions-js/tree/master/509.%20Fibonacci%20Number)
+
 [746. Min Cost Climbing Stairs ](https://github.com/zlatanned/leetcode-solutions-js/tree/master/746.%20Min%20Cost%20Climbing%20Stairs)
 
