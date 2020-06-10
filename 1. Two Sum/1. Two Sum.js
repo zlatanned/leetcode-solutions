@@ -1,4 +1,4 @@
-var twoSum = function (nums, target) {
+let twoSum = function (nums, target) {
     for (var i = 0; i < nums.length; i++) {
         var v = nums[i];
 
