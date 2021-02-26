@@ -4,6 +4,8 @@ Leetcode solutions available for selected problems
 ### Links To Solutions : 
 [1. Two Sum ](https://github.com/zlatanned/leetcode-solutions-js/tree/master/1.%20Two%20Sum)
 
+[4. Median of Two Sorted Arrays ](https://github.com/zlatanned/leetcode-solutions-js/tree/master/4.%20Median%20of%20Two%20Sorted%20Arrays)
+
 [5. Longest Palindromic Substring ](https://github.com/zlatanned/leetcode-solutions-js/tree/master/5.%20Longest%20Palindromic%20Substring)
 
 [7. Reverse Integer ](https://github.com/zlatanned/leetcode-solutions-js/tree/master/7.%20Reverse%20an%20Integer)
