@@ -19,12 +19,15 @@ Explanation:
 WordFilter wordFilter = new WordFilter(["apple"]);
 wordFilter.f("a", "e"); // return 0, because the word at index 0 has prefix = "a" and suffix = 'e".
 
-
 Solution:
 Let n be number of words, L be maximum length of word.
 For word 'apple', we find substring suffix + # + prefix in string apple#apple. 
 Now, quick way to find substring is for example create Trie with all suffixes of apple#apple, which include #.
 
+Complexity:
+It is O(nL^2) time and space for init: for each word we need O(L^2) processing time. 
+For f we need O(L) time and O(1) space, because we just traverse through tree.
+So, final complexity is O(nL^2 + QL), where Q is number of queries.
 """
 
 class TrieNode:
