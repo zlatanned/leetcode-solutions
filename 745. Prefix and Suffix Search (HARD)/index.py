@@ -19,6 +19,12 @@ Explanation:
 WordFilter wordFilter = new WordFilter(["apple"]);
 wordFilter.f("a", "e"); // return 0, because the word at index 0 has prefix = "a" and suffix = 'e".
 
+
+Solution:
+Let n be number of words, L be maximum length of word.
+For word 'apple', we find substring suffix + # + prefix in string apple#apple. 
+Now, quick way to find substring is for example create Trie with all suffixes of apple#apple, which include #.
+
 """
 
 class TrieNode:
