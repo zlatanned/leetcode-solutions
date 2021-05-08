@@ -85,4 +85,4 @@ let isPalindrome = function (nr) {
 	return nr === nr.split('').reverse().join('');
 }
 
-console.log(superpalindromesInRange("4", "1000"));
+// console.log(superpalindromesInRange("4", "1000"));
