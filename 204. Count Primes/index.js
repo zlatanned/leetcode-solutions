@@ -15,3 +15,8 @@ var countPrimes = function(n) {
     }
     return hash.filter((val)=>val).length;
 };
+
+//Algo:
+//Use Sieve of Eratosthenes Algorithm
+//Mark all increment of current value to false. p*(p+1), p*(p+2) ...
+//The total Iteration run time can reduce to sqrt(n)
