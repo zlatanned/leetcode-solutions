@@ -12,4 +12,11 @@ function smallerNumbersThanCurrent(nums) {
     Complexity:
         Time O(NlogN)
         Space O(N)
+
+    Example:
+    nums [8,1,2,2,3]
+
+    Sort nums by descending order: sorted [8,3,2,2,1]
+    Create map with counts: map: {8:4,3:3,2:1,1:0}
+    Return an array with counts stored in map: result: [4,0,1,1,3]
 */
