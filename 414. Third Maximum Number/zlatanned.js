@@ -7,3 +7,5 @@ var thirdMax = function(nums) {
     const sorted = Array.from(nums1).sort((a,b) => b-a);
     return sorted.length < 3 ? sorted[0] : sorted[2];
 };
+
+// Time: O(nlogn)
