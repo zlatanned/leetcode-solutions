@@ -7,3 +7,9 @@ function smallerNumbersThanCurrent(nums) {
   const map = new Map(sorted.map((num, index) => [num, nums.length - index - 1]));
   return nums.map(num => map.get(num));
 }
+
+/*
+    Complexity:
+        Time O(NlogN)
+        Space O(N)
+*/
