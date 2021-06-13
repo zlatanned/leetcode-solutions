@@ -19,4 +19,12 @@ var countBits = function(num) {
 /*
     Complexity:
         Time = O(n)
+        
+    Example: 
+        Input: n = 2
+        Output: [0,1,1]
+        Explanation:
+        0 --> 0
+        1 --> 1
+        2 --> 10
 */
