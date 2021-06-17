@@ -14,3 +14,7 @@ function calculatePascal(numRows) {
 
   return pascal;
 }
+
+/*
+  Approach used: (todo)
+*/
