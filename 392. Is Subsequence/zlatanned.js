@@ -10,3 +10,7 @@ var isSubsequence = function(s, t) {
     }
     return i === s.length;
 };
+
+/*
+    Time Complexity: O(n) where n is length of child string
+*/
