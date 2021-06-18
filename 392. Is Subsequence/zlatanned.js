@@ -8,5 +8,5 @@ var isSubsequence = function(s, t) {
         }
         j++;        
     }
-    return i === s.length ? true: false;
+    return i === s.length;
 };
