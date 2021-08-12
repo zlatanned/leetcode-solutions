@@ -11,6 +11,6 @@ def longestCommonPrefix(strs):
 
 """ 
 printing resultant values 
-# print ("The zipped result is : ",end="")
-# print (longestCommonPrefix(["flower","flow","flight"]))
+print ("The zipped result is : ",end="")
+print (longestCommonPrefix(["flower","flow","flight"]))
 """
