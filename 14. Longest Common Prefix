@@ -1,0 +1,9 @@
+def longestCommonPrefix(strs):
+    if not(strs): return ""
+
+    pref = ""
+    for s in zip(*strs):
+        print("----------------", s[0])
+        if len(set(s)) != 1: return pref
+        pref += s[0]
+    return pref
