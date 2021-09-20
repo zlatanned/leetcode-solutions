@@ -9,5 +9,10 @@ print(containsDuplicates([1,2,3,1])) #True
         1. set(nums)  => O(n)
         2. len comparison => O(n)
         
-            Net: O(n)
+            Net Time Complexity: O(n)
+            
+    Space Complexity: 
+        1. used set for array of n length => O(n)
+        
+            Net Space Complexity: O(n)
 """
